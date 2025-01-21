@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header {
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.06);
+}
+
+.search {
+    box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.05);
+}
+
+.information {
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+}
+
+.information:hover {
+    box-shadow: 0px 0px 70px 0px rgba(0, 0, 0, 0.29);
+}
+
+.back-button {
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.29);
+}
+
+.details-img {
+    box-shadow: 0px 0px 14px 4px rgba(0, 0, 0, 0.03);
+}
+
+.border-country {
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.29);
+}
+
+.custom-select {
+    cursor: pointer;
+    box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.05);
+}
