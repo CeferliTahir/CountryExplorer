@@ -4,8 +4,8 @@ import Skeleton from "@mui/material/Skeleton";
 const CustomSkeleton = () => {
   return (
     <>
-      <Box sx={{ display: "flex", flexDirection: "column", gap: 2, my: 5 }}>
-        <div className="flex flex-col w-[264px]">
+      <Box>
+        <div className="flex flex-col w-[264px] m-auto">
           <Skeleton
             variant="rectangular"
             width="100%"

@@ -6,26 +6,30 @@ const DetailsSkeleton = () => {
 
   return (
     <>
-      <div className="max-w-[1280px] w-[90%] m-auto">
-        <div className="flex items-center pt-[200px] justify-between">
+      <div className="sm:max-w-[1280px] w-[90%] m-auto">
+        <div className="flex flex-col sm:flex-row items-center gap-11 sm:gap-0 pt-32 sm:pt-[200px] justify-between">
           <div>
             <Box>
-              <Skeleton
-                sx={{
-                  bgcolor: "grey.900",
-                  borderRadius: "10px",
-                }}
-                variant="rectangular"
-                width="660px"
-                height="400px"
-              />
+              <div className="sm:w-[660px] w-[320px] h-[229px] sm:h-[400px]">
+                <Skeleton
+                  sx={{
+                    bgcolor: "grey.900",
+                    borderRadius: "10px",
+                  }}
+                  variant="rectangular"
+                  width="100%"
+                  height="100%"
+                />
+              </div>
             </Box>
           </div>
           <div>
-            <Box sx={{ width: 600 }}>
-              {array.map(({ _, index }) => {
-                return <Skeleton key={index} />;
-              })}
+            <Box>
+              <div className="sm:w-[600px] w-[320px]">
+                {array.map(({ _, index }) => {
+                  return <Skeleton key={index} />;
+                })}
+              </div>
             </Box>
           </div>
         </div>

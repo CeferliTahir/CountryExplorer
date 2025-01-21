@@ -11,8 +11,8 @@ const SearchBar = () => {
   };
   return (
     <>
-      <div className="flex flex-col sm:flex-row sm:justify-between gap-10 sm:gap-0 sm:items-center py-12">
-        <div className="search flex items-center gap-6 py-[18px] px-8 bg-white dark:bg-[#2B3844] rounded-[5px] sm:w-[480px]">
+      <div className="flex flex-col sm:flex-row sm:justify-between gap-2 sm:gap-0 sm:items-center py-12">
+        <div className="search flex items-center gap-6 py-[18px] px-4 sm:px-8 bg-white dark:bg-[#2B3844] rounded-[5px] sm:w-[480px]">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 18 18"
