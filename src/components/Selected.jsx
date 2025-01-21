@@ -11,12 +11,12 @@ const Selected = () => {
   }
 
   return (
-    <div className="custom-select w-[200px] px-3 dark:bg-[#2B3844] rounded-[5px] bg-white">
+    <div className="custom-select sm:w-[200px] px-3 dark:bg-[#2B3844] rounded-[5px] bg-white">
       <select
         defaultValue={"0"}
         value={searchParams.get("region") || "0"}
         onChange={handleChange}
-        className="border-none py-4 w-full outline-none text-xs sm:text-sm dark:text-white dark:bg-[#2B3844]"
+        className="border-none py-4 w-full outline-none text-xs bg-white sm:text-sm dark:text-white dark:bg-[#2B3844]"
       >
         <option value="0" disabled>
           Filter by Region
